@@ -320,6 +320,13 @@
 
 @media all and (min-width: 200px) and (max-width: 700px){
 
+*{
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+  .mar{
+    margin-top: 15vh;
+  }
   /* 1 */
   .telangana{
     flex-wrap: wrap;
@@ -329,7 +336,9 @@
     padding: 10px;
   }
   .childimgs{
-    left: 0%;
+    left: 5%;
+    width: 90%;
+
   }
   .heading3 p{
     width: 80%;
@@ -338,7 +347,7 @@
   }
   .heading3 h1,hr{
     text-align: center;
-    margin: auto;
+    margin: auto !important;
   }
 
 /* 2 */
@@ -346,10 +355,7 @@
  .jpr2{
   flex-wrap: wrap-reverse;
  }
- .childimgs2{
-  
-  /* margin-top: 30px; */
- }
+ /*  */
  .childimgs2 img{
 
   margin: auto;
@@ -403,10 +409,19 @@
 margin-top: 30vh;
 margin-bottom: -6vh;
 }
+.brdr{
+  hr{
+    margin: auto;
+  }
+}
 
+.fn{
+  font-size: 11px;
+  margin-top: 20vh;
+}
 /* navbar */
 .nav-ul{
-  display: none;
+  display: none !important;
 }
 .sidebar{
   display: block !important;

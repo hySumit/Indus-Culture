@@ -11,7 +11,7 @@ export const Home2 = () => {
   return (
     <>
       <div className="brdr mt-[70px]">
-        <h1 className="text-4xl font-bold mb-10" >Explore India</h1>
+        <h1 className="text-4xl font-bold mar mb-10" >Explore India</h1>
         <div className="flex justify-evely telangana">
           <div className="heading3">
             <h1 className="text-2xl mt-7 mr-[50vh]">Antiques of Telangana.</h1>

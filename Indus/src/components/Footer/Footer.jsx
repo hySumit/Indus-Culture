@@ -47,7 +47,7 @@ export const Footer = () => {
             <div className="bar flex items-center">
               <img src={gml} alt="Gmail" className="w-6 h-6 mr-2" />
               <a href="mailto:Sumitbth67@gmail.com" className="text-black">
-                <p>Sumitbth67@gmail.com</p>
+                <p>S@gmail.com</p>
               </a>
             </div>
           </div>
